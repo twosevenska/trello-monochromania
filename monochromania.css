@@ -1,0 +1,76 @@
+@-moz-document domain("trello.com") {
+#header {
+	background: #2B2B2B !important;
+	padding: 10px !important;
+}
+
+.header-logo {
+	margin-top: 5px;
+}
+
+.board-header {
+	padding: 5px 30px 5px 8px !important;
+}
+
+.sidebar-show-btn {
+	margin-top: 5px !important;
+}
+
+.sidebar-hide-btn .icon-sm.icon-rightarrow {
+	margin-top: -4px !important;
+}
+
+.board-widgets {
+	padding-top: 6px !important;
+	padding-left: 6px !important;
+}
+
+.board-widgets-content-wrapper .board-widget-nav h3.toggle-widget-nav {
+	padding: 4px 10px !important;
+}
+
+.board-widgets-content-wrapper .board-widget-nav h3.toggle-widget-nav .toggle-menu-icon {
+	top: 5px !important;
+}
+
+.header-user {
+	top: 10px !important;
+	right: 5px !important;
+}
+
+.header-member {
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important;
+}
+
+body.small-window .header-user .header-member {
+	border-radius: 20px !important;
+}
+
+.member {
+	border-radius: 20px !important;
+	border: none !important;
+}
+
+.member img {
+	border-radius: 20px !important;
+	border: none !important;
+}
+
+.pop-over-list li>a:hover {
+	background: #999999 !important;
+}
+
+
+#classic-body {
+	background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-254098.jpg) !important;
+}
+
+.board-header-btn-text {
+    color: #edeff0 !important;
+}
+
+.board-header-btn-icon {
+    color: #edeff0 !important;
+}
+}
